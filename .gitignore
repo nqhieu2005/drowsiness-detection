@@ -1,0 +1,15 @@
+# Môi trường ảo của Python
+.venv/
+venv/
+
+# Thư mục dữ liệu
+data/
+
+# Các file mô hình đã huấn luyện
+models/
+*.h5
+
+# Các file tạm
+__pycache__/
+*.pyc
+*.log

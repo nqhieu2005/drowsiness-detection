@@ -1,0 +1,1 @@
+Đã chạy prepare_data.py. Tuyệt đối không chạy thêm.
