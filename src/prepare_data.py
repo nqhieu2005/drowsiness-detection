@@ -2,8 +2,8 @@ import os
 import shutil
 from sklearn.model_selection import train_test_split
 
-script_dir = os.path.dirname(os.path.abspath(__file__))
-project_root = os.path.dirname(script_dir)
+script_dir = os.path.dirname(os.path.abspath(__file__)) #Lấy folder chứa file .py đang chạy
+project_root = os.path.dirname(script_dir) #Lấy thư mục cha của thằng bên trên (script_dir)
 
 processed_dir = os.path.join(project_root, 'data', 'processed')
 split_dir = os.path.join(project_root, 'data', 'split')
