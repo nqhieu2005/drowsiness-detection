@@ -3,7 +3,9 @@
 venv/
 
 # Thư mục dữ liệu
-data/
+# Thư mục dữ liệu
+/data/*
+!/data/.gitkeep
 
 # Các file mô hình đã huấn luyện
 models/
@@ -13,3 +15,5 @@ models/
 __pycache__/
 *.pyc
 *.log
+
+docs/
